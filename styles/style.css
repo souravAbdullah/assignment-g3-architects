@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Header Styles */
+/* Header styles */
 
 .header {
     background: rgba(255, 144, 14, 0.1);
@@ -40,7 +40,6 @@ nav li {
 .banner-info {
     text-align: center;
     margin: 100px 529px 30px 529px;
-    width: 862px;
 }
 
 .banner-title {
@@ -67,4 +66,257 @@ nav li {
 
 .banner img {
     margin: 20px 240px 60px 240px;
+}
+
+/* Quick features section styles */
+
+.features {
+    display: flex;
+    align-items: center;
+    margin: 85px 300px 130px 300px;
+    gap: 70px;
+}
+
+.teams-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature-info {
+    width: 537px;
+    height: 304px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.feature-title .quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.feature-title .Features-word {
+    color: #FF900E;
+}
+
+.feature-description {
+    color: #727272;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+/* More features section styles  */
+
+.more-features-section {
+    display: flex;
+    gap: 140px;
+    align-items: center;
+    width: 1440px;
+    height: 1059px;
+}
+
+.more-features {
+    width: 586px;
+    height: 982px;
+    margin-left: 266px;
+}
+
+.more-features-title {
+    font-weight: 700;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+    margin-bottom: 24px;
+}
+
+.more-features-description {
+    width: 586px;
+    height: 78px;
+    color: #727272;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.feature-boxes {
+    width: 586px;
+    height: 171px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feature-titles {
+    font-weight: 600;
+    font-size: 25px;
+    padding: 30px 0px 10px 33px;
+}
+
+.feature-descriptions {
+    color: #727272;
+    width: 514px;
+    height: 78px;
+    padding-left: 30px;
+}
+
+.btn-secondary {
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 46px 42px 45px 42px;
+    margin-left: 880px;
+    margin-bottom: 130px;
+    margin-top: -200px;
+
+}
+
+.btn-secondary .Year {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.btn-secondary .experience {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* Some facts section styles */
+
+.facts-section {
+    margin-left: 240px;
+    margin-bottom: 240px;
+    width: 1440px;
+}
+
+.facts-section-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.facts-section-description {
+    width: 542px;
+    height: 52px;
+    color: #727272;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+.facts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fact-boxes {
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    /* transform: rotate(90deg); */
+}
+
+.fact-boxes img {
+    padding-top: 45px;
+    padding-bottom: 10px;
+}
+
+.fact-boxes h4 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    padding-bottom: 5px;
+}
+
+.fact-boxes p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+/* Sponsors section styles  */
+
+.sponsors-section {
+    text-align: center;
+    width: 1440px;
+}
+
+.sponsors-info {
+    margin-left: 715px;
+    width: 542px;
+    height: 151px;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-description {
+    color: #727272;
+    padding-top: 45px;
+}
+
+.sponsors-images {
+    display: flex;
+    margin-left: 240px;
+    margin-top: 30px;
+    gap: 155px;
+    -webkit-filter: grayscale(100%);
+}
+
+/* Extra section: Contact styles */
+
+.contact {
+    margin-left: 380px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 550px;
+    height: 95px;
+    color: #fffbfa;
+    padding-top: 70px;
+    padding-left: 55px;
+}
+
+.btn-call {
+    background-color: #FF900E;
+    margin-top: 30px;
+    margin-left: 55px;
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fffdfc;
+    border-radius: 10px;
+}
+
+/* Footer section styles */
+
+footer {
+    margin: 130px 240px;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding-top: 40px;
+    padding-left: 410px;
 }
